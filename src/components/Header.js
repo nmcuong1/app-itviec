@@ -4,13 +4,15 @@ import '../assets/styles/Header.css';
 import logo from '../assets/images/logo_itviec.webp';
 
 function Header() {
-  return (
+  return ( 
+    
     <header className="header">
       <nav>
         <Link to="/">
               <img src={logo} alt="ITviec Logo" className="logo" />
             </Link>
             <ul className="dropdown">
+              <i class="fas fa-h1    "></i>
   <li>
     <a href="/#">Việc làm IT</a>
     <ul className="dropdown-submenu">
