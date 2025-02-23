@@ -7,11 +7,11 @@ import './assets/styles/App.css';
 
 function App() {
   return (
-    <BrowserRouter basename="/app-itviec">
+    <BrowserRouter basename="/TT-ITViec">
     <div className="App">
       <Header />
       <Routes>  
-        <Route path="/" element={HomePage} />
+        <Route path="/" element={<HomePage />} />
         {/* <Route path="/jobs" element={<JobPage />} />
         <Route path="/companies" element={<CompanyPage />} />*/}
       </Routes>
