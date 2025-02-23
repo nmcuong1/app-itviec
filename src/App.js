@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import './assets/styles/App.css';
 
 function App() {
   return (
+    <BrowserRouter basename="/TT-ITViec">
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Routes>  
+        <Route path="/" element={<HomePage />} />
+        {/* <Route path="/jobs" element={<JobPage />} />
+        <Route path="/companies" element={<CompanyPage />} />*/}
+      </Routes>
+      <Footer />
     </div>
+  </BrowserRouter>
   );
 }
 
