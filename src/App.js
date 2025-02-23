@@ -7,7 +7,7 @@ import './assets/styles/App.css';
 
 function App() {
   return (
-    <BrowserRouter basename="/TT-ITViec">
+    <BrowserRouter basename="/">
     <div className="App">
       <Header />
       <Routes>  
