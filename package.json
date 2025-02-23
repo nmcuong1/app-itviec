@@ -2,7 +2,7 @@
   "name": "app-itviec",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nmcuong1.github.io",
+  "homepage": "https://nmcuong1.github.io/app-itviec",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
